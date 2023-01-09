@@ -16,8 +16,7 @@ export const Home = () => {
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
           <div
-            className="h_bg-image order-1 order-lg-2 h-100 "
-            style={{ backgroundImage: `url(${introdata.your_img_url})` }}
+            className="h_bg-image order-1 order-lg-2 h-100 avatar"
           ></div>
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
@@ -37,7 +36,12 @@ export const Home = () => {
                     }}
                   />
                 </h1>
-                <p className="mb-1x">{introdata.description}</p>
+                <p className="mb-1x">
+                My goal is to make sure my clients have an enjoyable experience and get the best bang for their buck.<br/>
+                My services range from custom design and development of websites and applications to maintenance and support.<br/>
+                I am passionate about coding, soccer and bowling.<br/>
+                Please feel free to contact me with any questions.
+                </p>
                 <div className="intro_btn-action pb-5">
                   <Link to="/portfolio" className="text_2">
                     <div id="button_p" className="ac_btn btn ">

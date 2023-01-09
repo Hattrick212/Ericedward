@@ -1,5 +1,13 @@
 .sec_sp {
-    margin-bottom: calc(3rem + 5.128vw)
+    margin-bottom: calc(3rem + 2vw)
+}
+
+.resume {
+    text-align: right;
+}
+
+.resume h3 {
+    font-size: 18px;
 }
 
 .table td,

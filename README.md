@@ -1,6 +1,6 @@
 ### Description
 
-A simple portfolio template for developer/designers built with React. 
+A portfolio website for full stack developer built with React. 
 
 ### [live preview](https://ubaimutl.github.io/react-portfolio/)
 

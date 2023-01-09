@@ -22,9 +22,9 @@ export const ContactUs = () => {
     setFormdata({ loading: true });
 
     const templateParams = {
-      from_name: formData.email,
-      user_name: formData.name,
-      to_name: contactConfig.YOUR_EMAIL,
+      email: formData.email,
+      from_name: formData.name,
+      to_name: "Eric Edward",
       message: formData.message,
     };
 
@@ -95,19 +95,20 @@ export const ContactUs = () => {
           <Col lg="5" className="mb-5">
             <h3 className="color_sec py-4">Get in touch</h3>
             <address>
-              <strong>Email:</strong>{" "}
+              <strong>Email :</strong>{" "}
               <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
                 {contactConfig.YOUR_EMAIL}
               </a>
               <br />
+              <strong>Skype :</strong>{" "}
+              {contactConfig.YOUR_SKYPE}
               <br />
-              {contactConfig.hasOwnProperty("YOUR_FONE") ? (
-                <p>
-                  <strong>Phone:</strong> {contactConfig.YOUR_FONE}
-                </p>
-              ) : (
-                ""
-              )}
+              <strong>Telegram :</strong>{" "}
+              {contactConfig.YOUR_TELEGRAM}
+              <br />
+              <strong>Discord :</strong>{" "}
+              {contactConfig.YOUR_DISCORD}
+              <br />
             </address>
             <p>{contactConfig.description}</p>
           </Col>

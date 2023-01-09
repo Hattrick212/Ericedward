@@ -1,8 +1,9 @@
 import React from "react";
 import "./style.css";
 import {
+  FaSkype,
   FaGithub,
-  FaTwitter,
+  // FaTwitter,
   FaFacebookF,
   FaLinkedin,
   FaYoutube,
@@ -14,10 +15,10 @@ export const Socialicons = (params) => {
   return (
     <div className="stick_follow_icon">
       <ul>
-        {socialprofils.twitter && (
+        {socialprofils.Skype && (
           <li>
-            <a href={socialprofils.twitter}>
-              <FaTwitter />
+            <a href={socialprofils.Skype}>
+              <FaSkype />
             </a>
           </li>
         )}

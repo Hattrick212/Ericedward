@@ -37,6 +37,11 @@ section {
     margin-top: -60px;
 }
 
+.intro_sec .avatar {
+    background-image: url('../../assets/images/Eric.jpg');
+    opacity: 0.6;
+}
+
 @media (max-width:991.98px) {
     .intro_sec {
         display: block;
@@ -59,6 +64,14 @@ section {
 .intro_sec .intro {
     max-width: 450px;
     margin: 0 auto;
+    /* background-image: url("../../assets/images/Eric.jpg"); */
+}
+
+.intro_sec .intro::before {
+    max-width: 450px;
+    margin: 0 auto;
+    opacity: 0.3;
+    /* background-image: url("../../assets/images/Eric.jpg"); */
 }
 
 @media (max-width:991.98px) {

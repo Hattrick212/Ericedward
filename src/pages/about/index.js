@@ -4,11 +4,13 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   dataabout,
+  dataeducation,
   meta,
   worktimeline,
   skills,
   services,
 } from "../../content_option";
+import {FaReadme} from "react-icons/fa";
 
 export const About = () => {
   return (
@@ -24,6 +26,11 @@ export const About = () => {
             <h1 className="display-4 mb-4">About me</h1>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
+          <Col lg="4" className="resume">
+            <a href="https://www.goodcv.com/cv/a487a0478427a33f3358f1f62e8cea84">
+              <h3><FaReadme/>  My resume</h3>
+            </a>
+          </Col>
         </Row>
         <Row className="sec_sp">
           <Col lg="5">
@@ -35,7 +42,21 @@ export const About = () => {
             </div>
           </Col>
         </Row>
-        <Row className=" sec_sp">
+        <Row className="sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">{dataeducation.title}</h3>
+          </Col>
+          <Col lg="7" className="d-flex align-items-start flex-column">
+            <div>
+              <p style={{fontSize: "18px", fontWeight: "500"}}>{dataeducation.aboutme}</p>
+            </div>
+            <div className="d-flex">
+              <p>{dataeducation.degree}</p>
+              <p style={{marginLeft: "15rem"}}>{dataeducation.period}</p>
+            </div>
+          </Col>
+        </Row>
+        <Row className="sec_sp">
           <Col lg="5">
             <h3 className="color_sec py-4">Work Timline</h3>
           </Col>
