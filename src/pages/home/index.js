@@ -36,12 +36,7 @@ export const Home = () => {
                     }}
                   />
                 </h1>
-                <p className="mb-1x">
-                My goal is to make sure my clients have an enjoyable experience and get the best bang for their buck.<br/>
-                My services range from custom design and development of websites and applications to maintenance and support.<br/>
-                I am passionate about coding, soccer and bowling.<br/>
-                Please feel free to contact me with any questions.
-                </p>
+                <p className="mb-1x">{introdata.description}</p>
                 <div className="intro_btn-action pb-5">
                   <Link to="/portfolio" className="text_2">
                     <div id="button_p" className="ac_btn btn ">

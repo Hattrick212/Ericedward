@@ -27,7 +27,7 @@ export const About = () => {
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
           <Col lg="4" className="resume">
-            <a href="https://www.goodcv.com/cv/a487a0478427a33f3358f1f62e8cea84">
+            <a href={dataabout.resume}>
               <h3><FaReadme/>  My resume</h3>
             </a>
           </Col>

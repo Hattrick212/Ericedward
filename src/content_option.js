@@ -1,76 +1,85 @@
-const logotext = "EriC EdWarD";
+const logotext = "GagAWa SinjI";
 const meta = {
-    title: "Eric Edward",
-    description: "I’m Eric Edward data scientist _ Full stack developer,currently working in Singapore",
+    title: "Gagawa Sinji",
+    description: "I’m Gagawa Sinji data scientist _ Full stack developer,currently working in Japan",
 };
 
 const introdata = {
-    title: "This is Eric Edward",
+    title: "This is Gagawa Sinji",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
         third: "beautiful, functional and secure",
     },
-    description: `My goal is to make sure my clients have an enjoyable experience and get the best bang for their buck.${'\n'} My services range from custom design and development of websites and applications to maintenance and support. I am passionate about coding, soccer and bowling. Please feel free to contact me with any questions.`,
+    description: `On every project, My goal is to reach max efficiency, learn from every experience, and use both to improve the product. I can provide high-quality solutions while maintaining efficiency. In a nutshell, I enjoys challenges, self-improvement, and providing top services.`,
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
     title: "abit about my self",
+    resume: "https://www.goodcv.com/cv/d0f71fa640a9aa8cb6dae6b851096fc2",
     aboutme: "I am a young but dedicated software developer focused on providing reliable and efficient web development solutions. With over years of combined experience in the industry, I have the expertise and knowledge to deliver quality solutions to my customers. I specialize in FullStack development, trading strategy development, and more. I understand that no two clients have the same needs and requirements. That’s why I work closely with each of my clients to create a unique solution that meets their individual needs. From the initial consultation to the finished product, I strive to ensure that my clients are completely satisfied with their web development solutions.",
 };
 
 const dataeducation = {
     title: "Education",
-    aboutme: "NanYang Technological University.",
+    aboutme: "Waseda University.",
     degree: "Bachelor's degree",
-    period: "2016-2019"
+    period: "2014-2017"
 };
 
 const worktimeline = [
     {
         jobtitle: "Full Stack Developer",
-        where: "Singapore",
+        where: "Osaka, Japan",
         date: "2022 - ",
     },
     {
         jobtitle: "Full Stack Developer",
         where: "Zaporizhzhia Ukraine",
-        date: "2019 - 2021",
+        date: "2018 - 2022",
     },
 ];
 
 const skills = [{
         name: "React",
-        value: 90,
+        value: 100,
     },
     {
         name: "Next",
         value: 85,
     },
     {
+        name: "Vue",
+        value: 95,
+    },
+    {
+        name: "Nuxt",
+        value: 75,
+    },
+    {
         name: "ASP.NET",
         value: 90,
     },
     {
-        name: "Vue",
-        value: 85,
-    },
-    {
-        name: "Nuxt",
-        value: 65,
+        name: "Django",
+        value: 90,
     },
     {
         name: "Laravel/PHP",
-        value: 85,
+        value: 100,
     },
     {
         name: "Javascript",
-        value: 80,
+        value: 100,
     },
     {
         name: "Typescript",
-        value: 80,
+        value: 100,
+    },
+    {
+        name: "Tailwind",
+        value: 100,
     },
     {
         name: "Azure DevOps",
@@ -166,11 +175,11 @@ const dataportfolio = [
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "ericedward.mou@gmail.com",
-    YOUR_SKYPE: "live:.cid.23f7a38e0035b9ea",
-    YOUR_TELEGRAM: "https://t.me/finalgoal",
-    YOUR_DISCORD: "edward🧠🥌🎳#1561",
-    YOUR_FONE: "(65)685-954841",
+    YOUR_EMAIL: "alfongemb@gmail.com",
+    YOUR_SKYPE: "live:.cid.71188931b1d23ffb",
+    YOUR_TELEGRAM: "https://t.me/dagger0212",
+    YOUR_DISCORD: "dagger🧠🥌🎳#1561",
+    YOUR_FONE: "(81)251-954841",
     description: "I understand that choosing the right assistant to help you with your project can be a daunting task. An experienced professional is here to answer any questions you may have and help you find the best solution for your unique needs. I would love to hear from you and discuss your project in more detail. Contact me today to find out how I can help you succeed!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
@@ -180,7 +189,7 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com/Hattrick212",
+    github: "https://github.com/0xalpha0123",
     // facebook: "https://facebook.com",
     // linkedin: "https://linkedin.com",
     // twitter: "https://twitter.com",
